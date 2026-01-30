@@ -7,7 +7,7 @@ while True:
     print("3. Multiply")
     print("4. Divide")
 
-    op = input(int("Which operation (1/2/3/4): "))
+    op = int(input("Which operation (1/2/3/4): "))
 
     if op == 1:
         print(num1 + num2)
