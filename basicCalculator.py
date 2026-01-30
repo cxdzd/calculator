@@ -1,7 +1,7 @@
 while True:
-    num1 = input("First number: ")
-    num2 = input("Second number")
-    
+    num1 = int(input("First number: "))
+    num2 = int(input("Second number: "))
+
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
@@ -11,15 +11,11 @@ while True:
 
     if op == 1:
         print(num1 + num2)
-        break
     elif op == 2:
         print(num1 - num2)
-        break
     elif op == 3:
         print(num1 * num2)
-        break
     elif op == 4:
         print(num1 / num2)
-        break
     else:
-        print("Invalid, try agian")
+        print("Invalid, try again")
